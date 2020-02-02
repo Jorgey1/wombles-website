@@ -98,7 +98,7 @@ footer {
     color: rgba(33, 127, 204, 0.733);
     border-style: solid;
     border-width: 2px;
-    border-color: blue;
+    border-color: rgba(33, 127, 204, 0.733);
     width: 25%;
 }
 
