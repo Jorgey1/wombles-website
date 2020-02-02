@@ -66,6 +66,31 @@ iframe {
     max-height: 100%;
 } */
 
+/* FONT */
+.font-main {
+    font-size: 40px;
+    font-family: 'Sigmar One', cursive;
+}
+
+.message {
+    align-content: center;
+}
+
+.border {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ED1C24;
+}
+
+p {
+    margin: 10px;
+    color: rgb(88, 184, 96);
+}
+
+.highlight {
+    color: #ED1C24;
+}
+
 @media only screen and (max-width: 375px ) {
     html {
         max-width: 100%;
