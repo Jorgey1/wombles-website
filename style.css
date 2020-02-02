@@ -1,0 +1,92 @@
+body {
+    margin: 0 auto;
+}
+
+/* BACKGROUND */
+.background-img {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5dd4164d27cd1842f6013931/1579268244737-KF2UKFME7D7RAIRDI28O/ke17ZwdGBToddI8pDm48kItafENu0RONvbyboy3Sax17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0lqfkVpRp1g_2L-WsTQRP4KoG3Za_UpFqJo2l_Jc7H-SSXuwswp8LBV--1RKouLUEQ/2.jpg?format=2500w");
+    background-repeat: repeat;
+    background-size: 100%;  
+    margin: 0;
+}
+
+/* LOGO */
+.name-logo {
+    width: 50%;
+    margin: 0;
+    /* padding: 10px; */
+}
+
+.container {
+    /* height: 50vh;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BANNER */
+.banner {
+    display: cover;
+}
+
+.box {
+    margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg) rotate(7deg);
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+/* IFRAME */
+iframe {
+    margin-left: 10px;
+    align-content: center;
+    height: 25rem;
+    width: 50rem;
+}
+
+/* .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+@media only screen and (max-width: 375px ) {
+    html {
+        max-width: 100%;
+    }
+    .name-logo {
+        width: 100%;
+    }
+    iframe {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 415px ) {
+    html {
+        max-width: 100%;
+    }
+    .name-logo {
+        width: 100%;
+    }
+    iframe {
+        max-width: 100%;
+        margin-right: 10px;
+    }
+}
