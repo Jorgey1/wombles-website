@@ -31,6 +31,7 @@ body {
 
 .box {
     margin: 20px;
+    transition: transform 1s;
 }
 
 .box > img {
@@ -42,7 +43,7 @@ body {
     -webkit-transform: rotate(-7deg);
     -moz-transform: rotate(-7deg);
     -o-transform: rotate(-7deg);
-    transform: rotate(-7deg) rotate(7deg);
+    transform: rotate(1080deg);
 }
 
 .box > img {
@@ -102,6 +103,7 @@ footer {
     width: 25%;
 }
 
+/* MEDIA QUERIES */
 @media only screen and (max-width: 375px ) {
     html {
         max-width: 100%;
