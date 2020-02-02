@@ -91,6 +91,17 @@ p {
     color: #ED1C24;
 }
 
+/* FOOTER */
+footer {
+    font-size: 16px;
+    font-family: 'Sigmar One', cursive;
+    color: rgba(33, 127, 204, 0.733);
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width: 25%;
+}
+
 @media only screen and (max-width: 375px ) {
     html {
         max-width: 100%;
