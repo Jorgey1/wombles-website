@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0 auto;
     width: 100%;
@@ -103,13 +108,11 @@ p {
 
 /* FOOTER */
 footer {
-    font-size: 11px;
+    font-size: 16px;
     font-family: 'Sigmar One', cursive;
     color: rgba(33, 127, 204, 0.733);
-    border-style: solid;
-    border-width: 2px;
     border-color: rgba(33, 127, 204, 0.733);
-    width: 100%;
+    width: 30%;
 }
 
 /* MEDIA QUERIES */
